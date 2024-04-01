@@ -24,7 +24,9 @@ export default function RegisterForm() {
       <div className="mt-3 flex justify-center">
         <span className="text-center text-sm lg:text-base">
           Sudah Punya Akun?{" "}
-          <Link className="font-semibold text-blue-600">Masuk Disini</Link>
+          <Link className="font-semibold text-blue-600" to="/login">
+            Masuk Disini
+          </Link>
         </span>
       </div>
       <button className="mt-7 flex w-full justify-center space-x-2 rounded-lg border border-gray-200 bg-gray-50 px-2 py-2 font-bold shadow-md  lg:mt-10 lg:text-[15px]">
