@@ -4,7 +4,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 
 export default function FirstSection() {
   return (
-    <div className="relative flex items-center justify-center bg-gray-50">
+    <div className="relative flex h-full items-center justify-center bg-gray-50">
       <div className="absolute left-5 top-20 flex items-start lg:left-44 lg:top-28">
         <div className="flex flex-col">
           <p className="w-full text-xl font-semibold text-blue-600 lg:text-4xl">
