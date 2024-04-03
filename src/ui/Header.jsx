@@ -1,5 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { TbUserCheck } from "react-icons/tb";
+import { RiHomeLine } from "react-icons/ri";
+
 import { FiCalendar } from "react-icons/fi";
 import Logo from "./Logo";
 
@@ -15,8 +17,8 @@ export default function Header() {
             to="/"
             className="flex items-center space-x-1 aria-[current=page]:text-blue-500"
           >
-            <TbUserCheck />
-            <span>Home</span>
+            <RiHomeLine size={17} />
+            <span>Beranda</span>
           </NavLink>
           <NavLink
             to="/mentor"

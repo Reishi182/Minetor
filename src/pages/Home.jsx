@@ -9,7 +9,7 @@ import SeventhSection from "../ui/SeventhSection";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col">
+    <div className="relative flex h-full flex-col">
       <FirstSection />
       <div className="relative">
         <div className="absolute mt-[-30px] flex w-full items-center justify-center space-x-10 lg:space-x-20">
